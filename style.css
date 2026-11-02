@@ -1,0 +1,29 @@
+/* إعدادات الخط الأساسي */
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* تثبيت الأعمدة في الجداول لسهولة التمرير */
+.sticky-col {
+  position: sticky;
+  right: 0;
+  z-index: 20;
+  background: inherit;
+}
+
+.sticky-col-2 {
+  position: sticky;
+  right: 140px;
+  z-index: 20;
+  background: inherit;
+}
+
+[dir="ltr"] .sticky-col {
+  left: 0;
+  right: auto;
+}
+
+[dir="ltr"] .sticky-col-2 {
+  left: 140px;
+  right: auto;
+}
